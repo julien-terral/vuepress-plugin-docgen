@@ -1,0 +1,28 @@
+{
+  "bugs": {
+    "url": "https://github.com/f3ltron/vuepress-plugin-docgen/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "deepmerge": "^3.2.0",
+    "glob": "^7.1.4",
+    "vue": "^2.6.10",
+    "vue-docgen-api": "^3.13.8"
+  },
+  "deprecated": false,
+  "description": "[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)\r [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\r [![Build Status](https://travis-ci.com/f3ltron/vuepress-plugin-docgen.svg?branch=master)](https://travis-ci.com/f3ltron/vuepress-plugin-docgen)\r  [![NPM Downloads](https://img.shields.io/npm/dm/vuepress-plugin-docgen.svg)](https://www.npmjs.com/package/vuepress-plugin-docgen)",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "vuepress": "^1.0.0-rc.1"
+  },
+  "gitHead": "c8514cfe32d849b3dd6657f064776736ee500059",
+  "homepage": "https://f3ltron.github.io/vuepress-plugin-docgen/",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "vuepress-plugin-docgen-agoravita",
+  "scripts": {
+    "test": "mocha --recursive --exclude node_modules --exclude src"
+  },
+  "version": "1.2.9"
+}
